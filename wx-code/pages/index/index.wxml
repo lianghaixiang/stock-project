@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<form bindsubmit='input1'>
+  <input name="input" placeholder='请输入要预测的股票代码：' style='border:1rpx solid #000;' class="input"></input>
+  <text class='example'>示例：600536_1, 1代表沪，2代表深</text>
+  <button form-type="submit" type='primary' class="button">提交</button>
+</form>
+<!-- <view>{{showResult}}</view>
+<view>{{last_val}}</view>
+<view wx:if="{{last_val<pred}}">77</view> -->
+
+<view class="view" class='result'>
+<view wx:if="{{last_val>pred}}">{{showResult}}</view>
+<view wx:else>{{showResult}}</view>
+</view>
+<!-- <button type="primary" bindtap="send">请求数据</button> -->
