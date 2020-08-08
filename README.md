@@ -9,4 +9,5 @@
 ## 微信小程序
   小程序界面比较简单，可输入任意任意股票代码，通过调用证券之星接口获取股票数据，预测股票的涨跌和涨幅。
   小程序界面：
+  ![小程序界面](https://github.com/weishao6hao/stock-project/blob/master/wx-miniprogram.jpeg)
   
